@@ -21,11 +21,6 @@
     h2 {
         font-size: 28px;
         margin-top: 40px;
-
-        &.spacer {
-            height: 20px;
-            margin-bottom: 10px;
-        }
     }
 
     h1, h2 {
@@ -47,5 +42,11 @@
 
     .content {
         text-align: left;
+    }
+
+    .spacer {
+        margin-top: 40px;
+        margin-bottom: 10px;
+        border-bottom: 2px solid #333;
     }
 }

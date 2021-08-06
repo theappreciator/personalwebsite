@@ -65,7 +65,7 @@ const ContentBlock: React.FunctionComponent<ContentBlockProps> = ({
                 </>
             )}
             {!heading && (
-                    <h2 className={styles.spacer}></h2>
+                    <div className={styles.spacer}></div>
             )}
             {childrenContent}
         </div>
