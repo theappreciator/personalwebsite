@@ -1,0 +1,46 @@
+.Resume {
+    background-color: #fff;
+    padding: 20px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid #333;
+    box-shadow: rgba(19, 21, 6, 0.4) 5px 5px, rgba(19, 21, 6, 0.3) 10px 10px, rgba(19, 21, 6, 0.2) 15px 15px, rgba(19, 21, 6, 0.1) 20px 20px, rgba(19, 21, 6, 0.05) 25px 25px;
+}
+
+.ContentBlockRowOneItem {
+    display: flex;
+}
+
+.ContentBlockRowTwoItems {    
+    display: flex;
+
+    .left {
+        font-weight: 700;
+        width: 300px;
+    }
+    .right {
+        width: calc(100% - 300px);
+        text-align: left;
+    }
+}
+
+.ContentBlockRowThreeItems {    
+    display: flex;
+    justify-content: space-between;
+
+    .left {
+        text-align: left;
+        font-weight: 700;
+        width: 200px;
+        font-weight: 700;
+    }
+    .middle {
+        text-align: center;
+        font-weight: 700;
+    }
+    .right {
+        width: 200px;
+        text-align: right;
+    }
+}

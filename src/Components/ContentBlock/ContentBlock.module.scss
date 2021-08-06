@@ -1,0 +1,51 @@
+.ContentBlock {
+    color: #333;
+
+    h1 {
+        font-size: 34px;
+
+        .capital {
+            font-size: 48px;
+        }
+
+        .sub {
+            font-size: 18px;
+            text-align: right;
+            text-transform: none;
+            margin: 0px;
+            padding: 0px;
+            padding-bottom: 4px;
+        }
+    }
+
+    h2 {
+        font-size: 28px;
+        margin-top: 40px;
+
+        &.spacer {
+            height: 20px;
+            margin-bottom: 10px;
+        }
+    }
+
+    h1, h2 {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        text-transform: uppercase;
+        text-align: left;
+        border-bottom: 2px solid #333;
+
+        .word {
+            padding-left: 12px;
+            display: inline;
+        }
+        .word:first-of-type {
+            padding-left: 0px;
+        }
+    }
+
+    .content {
+        text-align: left;
+    }
+}
